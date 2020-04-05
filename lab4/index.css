@@ -1,0 +1,35 @@
+.navbar-brand{
+    padding: 6px 6px;
+
+}
+.carousel {
+    width: 100%;
+    height:800px;
+}
+.item>img{
+    padding-left:20%;
+    width: 80%;
+    height: 70%;
+}
+nav>button{
+    padding-left: 900px;
+    position: center;
+}
+nav{
+    background-color: #171c20;
+}
+nav>a{
+    color: white;
+}
+footer{
+    background-color: rgb(23, 28, 32);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.6rem;
+}
+footer a{
+    color: whitesmoke;
+}
+footer a:hover{
+    color: #d46577;
+}
