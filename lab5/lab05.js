@@ -16,7 +16,7 @@ function showWindowHref(){
    var arr = string.split("&");
    for (i = 0;i < arr.length;i++){
       var result_search = arr[i].split("=");
-      if(result_search[0] = "name"){
+      if(result_search[0] == "name"){
          result = result_search[1];
          break;
       }
