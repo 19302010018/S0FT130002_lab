@@ -2,7 +2,7 @@
 ## Exercise7
 #### 1.PDO
 
-![](F:\GITHUB\SOFT130002_lab\lab10\images\1.jpg)
+![picture1](./images/1.jpg)
 
 ```
 分别通过 $pdo = new PDO(DBCONNSTRING,DBUSER,DBPASS); 和 $pdo = null;连接数据库或断开连接。
@@ -17,7 +17,7 @@ $sql = "select * from Artists order by LastName";设置选择形式并接下来�
 ```
 #### 2.mysqli
 
-![](F:\GITHUB\SOFT130002_lab\lab10\images\2.jpg)
+![picture2](./images/2.jpg)
 
 ```
 通过$connection = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME);和mysqli_close($connection);创建和断开数据库连接
@@ -30,7 +30,7 @@ $sql = "select * from Genres order by GenreName";设置选择形式
 
 ## Exercise8
 
-![](F:\GITHUB\SOFT130002_lab\lab10\images\3.jpg)
+![picture3](./images/3.jpg)
 
 #### 1.outputArtists()
 
@@ -43,6 +43,8 @@ $sql = "select * from Genres order by GenreName";设置选择形式
 #### 3.outputSinglePainting($row)
 
 用php输出单张图片
+
+##Exercise9
 
 一、执行sql语句的方式
 
@@ -62,7 +64,7 @@ $sql = "select * from Genres order by GenreName";设置选择形式
 
 ## Exercise10
 
-![](F:\GITHUB\SOFT130002_lab\lab10\images\4.jpg)
+![picture4](./images/4.jpg)
 
 第一个函数整体和Exercise9中类似，通过$sql进行分类选择，catch来处理异常，以此实现分类检索。在while中用outputSingleGenre($row)函数。
 而第二个函数就是通过php输出html来完成页面情况，其中具体点如图片页后生成的链接用constructGenreLink函数实现。
